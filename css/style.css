@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.names {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #9b9b9b;
+}
+
+.link {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+  /* or 242% */
+}
+.link__item {
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+/* section social */
+.social {
+  background: #0e77af;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 247px;
+  padding-right: 248px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.icon-socilal {
+  display: flex;
+}
+
+.facebook_image {
+  padding-right: 21px;
+}
+
+.twitter_image {
+  padding-right: 21px;
+}
+
+.mail_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* section menu */
+
+.menu {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 247px;
+  padding-right: 248px;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+.logo {
+}
+.nav {
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  list-style: none;
+  /* padding-bottom: 52px;
+  padding-top: 52px; */
+}
+.nav__item:not(:last-child) {
+  padding-right: 30px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+}
+.phone {
+  display: flex;
+}
+.phone__img {
+  padding-right: 12px;
+}
+.phone__text {
+}
+.phone__text_title {
+  color: rgba(125, 125, 125, 1);
+}
+.phone__text_number {
+}
+
+/* section slider */
+
+.slider {
+  width: 1665px;
+  height: 647px;
+  position: relative;
+  background: url(../img/doc2.png);
+  left: 125px;
+}
+.slider__container {
+  position: absolute;
+  left: 829px;
+  top: 150px;
+  width: 584px;
+}
+.slider__subtittle {
+  font-family: "Asap", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+
+  color: #1a1919;
+  padding-bottom: 12px;
+}
+.slider__title {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 96px;
+  padding-bottom: 12px;
+
+  color: #1a1919;
+}
+.slider__text {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  /* or 131% */
+
+  color: #000000;
+  padding-bottom: 70px;
+}
+.slider__btn {
+}
+.btn {
+  background-color: #b4141b;
+  color: #ffffff;
+}
+.slider__btn_item {
+  padding: 26px 63px 25px 70px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  /* identical to box height, or 96% */
+
+  text-align: center;
+}
+.slider__btn__container {
+  top: 317px;
+}
+
+.slider__btn__container-left {
+  position: absolute;
+  left: 90px;
+}
+
+.slider__btn__container-right {
+  position: absolute;
+  right: 100px;
+}
+
+.slider__btn-left {
+}
+.slider__btn-right {
+}
+
+/* section Us */
+.us {
+  display: flex;
+
+  padding-top: 85px;
+  padding-bottom: 135px;
+}
+.about-us {
+  margin-left: 343px;
+  width: 770px;
+  margin-right: 50px;
+}
+
+.about-us__imgage {
+}
+.us__title {
+  padding-bottom: 57px;
+}
+
+.about-us__text-container {
+  padding-top: 38px;
+}
+.about-us__text {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #000000;
+}
+.why-us {
+  margin-right: 248px;
+}
+.why-us__container {
+  width: 380px;
+}
+.why-us__dependable {
+  padding-left: 37px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, #f8f8f8 0%, #f7f7f7 100%);
+}
+.why-us__title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 17px;
+}
+.title-text {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #0e77af;
+}
+.title-svg {
+  padding-right: 18px;
+}
+.why-us__text {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+  color: #000000;
+  padding-right: 29px;
+  padding-bottom: 12px;
+}
+.why-us__link {
+}
+.why-us__link-item {
+}
+.why-us__open {
+  padding-left: 37px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, #f3f3f3 2.58%, #f3f3f3 100%);
+}
+.why-us__connected {
+  padding-left: 37px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%);
+}
+
+/* section benefits */
+
+.benefits {
+  display: flex;
+  padding-bottom: 130px;
+}
+.benefits__pic {
+  background: url(../img/benefits.png);
+  position: relative;
+  width: 877px;
+  height: 504px;
+  margin-left: 111px;
+}
+.benefits__card {
+  position: absolute;
+  right: 0;
+  width: 474px;
+  height: 86px;
+}
+.phisicials {
+  top: 87px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.medical {
+  top: 204px;
+  background: #0e77af;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+.control {
+  top: 321px;
+  background: #0e77af;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+
+.card {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: #000000;
+  padding-left: 34px;
+  padding-top: 32px;
+  padding-bottom: 36px;
+}
+
+.benefirs__description {
+  padding-left: 65px;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f8f8f8 100%);
+  width: 787px;
+}
+.benefits__title {
+  padding-bottom: 10px;
+}
+.benefits__name {
+  padding-bottom: 50px;
+}
+.benefits__text {
+}
+.benefits__list {
+  padding-bottom: 20px;
+  width: 474px;
+}
+.benefits__item {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #000000;
+}
+.benefits__btn-item {
+  padding: 6px 8px 6px 8px;
+}
+.btn {
+}
+
+/* section service/security */
+
+.service__security {
+  display: flex;
+}
