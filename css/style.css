@@ -374,4 +374,384 @@
 
 .service__security {
   display: flex;
+  padding-left: 246px;
+  padding-bottom: 167px;
+}
+
+.service {
+}
+.service__title {
+  padding-bottom: 9px;
+}
+.title {
+}
+.service__name {
+  padding-bottom: 67px;
+}
+.names {
+}
+.accordion {
+  margin-right: 101px;
+}
+.accordion__item {
+}
+.accordion__item_show {
+}
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #0e77af;
+  padding-bottom: 25px;
+}
+.accordion__body {
+  padding-top: 35px;
+  width: 702px;
+  display: flex;
+}
+
+.accordion__body__img {
+  padding-right: 20px;
+  padding-bottom: 42px;
+}
+.accordion__text {
+}
+.accordion__description {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #000000;
+  padding-bottom: 7px;
+}
+.accordion__header-last {
+  padding-top: 31px;
+}
+
+.security {
+  display: flex;
+  flex-direction: column;
+}
+.security__title {
+  padding-bottom: 9px;
+}
+.title {
+}
+.security__name {
+  padding-bottom: 47px;
+}
+.names {
+}
+.security__img {
+  width: 474px;
+  padding-bottom: 58px;
+}
+.security__text {
+  width: 474px;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #000000;
+}
+.security__btn {
+  margin-top: 58px;
+  padding: 6px 6px 6px 10px;
+  width: 118px;
+}
+
+/* section testimonials */
+
+.testimonials {
+  display: flex;
+  background: #0e77af;
+  padding-bottom: 141px;
+}
+.testimonials__text {
+  color: rgba(255, 255, 255, 1);
+  padding-top: 150px;
+  padding-left: 247px;
+}
+.testimonials__label {
+  padding-bottom: 92px;
+}
+.testimonials__title {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  padding-bottom: 9px;
+}
+.testimonials__name {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+}
+.testimonials__90 {
+  padding-bottom: 56px;
+}
+.testimonials__procent {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 73px;
+  padding-bottom: 9px;
+}
+.testimonials__description {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+}
+.testimonials__link {
+}
+.testimonials__link__item {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+}
+.textimonials__card {
+  background: #fff;
+  margin-top: 147px;
+  margin-bottom: 148px;
+  width: 734px;
+  margin-left: 307px;
+  padding: 71px 45px 82px 59px;
+}
+.testimonials__card__header {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #000000;
+  padding-bottom: 21px;
+}
+.testimonials__card__body {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #000000;
+  padding-bottom: 54px;
+}
+.testimonials__card__footer {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+/* section .submit */
+
+.submit {
+  padding-top: 179px;
+  padding-left: 247px;
+  padding-bottom: 228px;
+  display: flex;
+}
+.submit__description {
+  padding-right: 120px;
+}
+.submit__physicians {
+  padding-bottom: 26px;
+}
+
+.physicians__title {
+  padding-bottom: 9px;
+}
+
+.physicians__names {
+  padding-bottom: 24px;
+}
+.physicians__text {
+  padding-bottom: 21px;
+  width: 296px;
+}
+.physicians__link {
+}
+
+.submit__hospitals {
+}
+.hospitals__title {
+  padding-bottom: 9px;
+}
+.hospitals__names {
+  padding-bottom: 24px;
+}
+.hospitals__text {
+  padding-bottom: 21px;
+  width: 436px;
+}
+.hospitals__link {
+}
+
+.submit__form {
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%);
+  padding-top: 54px;
+  padding-left: 48px;
+  margin-top: -48px;
+  padding-bottom: 58px;
+}
+.form_title {
+  padding-bottom: 46px;
+}
+.input {
+  width: 388px;
+  height: 53px;
+  margin-bottom: 37px;
+  background: #ffffff;
+  border: 2px solid #e2e2e2;
+}
+
+.firstName {
+}
+.lastName {
+}
+.email {
+}
+.company {
+  margin-bottom: 3;
+}
+.btn {
+}
+.submit__btn {
+  width: 88px;
+  padding: 6px 6px 6px 10px;
+  margin-left: 300px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  width: 1170px;
+  display: flex;
+  margin-bottom: -97px;
+  z-index: 2;
+}
+.address {
+  background: #5f5f5f;
+}
+.contact__title {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.contact__title__padding {
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-bottom: 11px;
+  padding-right: 166px;
+}
+.contact__text {
+  font-family: "Asap";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #ffffff;
+}
+.contact__text__padding {
+  padding-bottom: 95px;
+  padding-left: 70px;
+}
+.call {
+  background: #6c6c6c;
+}
+.write {
+  background: #7b7b7b;
+}
+.about {
+  background: #4a4a4a;
+  width: 100%;
+  padding-left: 370px;
+  display: flex;
+  padding-top: 209px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.about__medpro {
+  width: 334px;
+  margin-right: 90px;
+  width: 334px;
+}
+
+.medpro__title {
+  padding-bottom: 45px;
+}
+.medpro__text {
+  padding-bottom: 127px;
+}
+.about__quick {
+  margin-right: 180px;
+}
+.contact__text__list {
+}
+.contact__text__item {
+}
+.contact__text__item__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.about__stay {
+  margin-right: 389px;
+}
+.stay__img {
+}
+.stay__imgage {
+  padding-right: 33px;
+}
+.copiwrite {
+  background: #363636;
+  width: 100%;
+  padding-left: 370px;
 }
