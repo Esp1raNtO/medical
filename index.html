@@ -4,39 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Medical</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
   </head>
   <body>
     <header>
       <section class="social">
         <div class="icon-socilal">
-          <div class="facebook_image">
-            <img
-              class="image__icon"
-              src="./img/facebook-4.svg"
-              height="16px"
-              width="16px"
-              alt=""
-            />
+          <div class="facebook_image"><a href="#">
+            <svg width="20" height="20" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" fill-rule="evenodd" clip-rule="evenodd" d="M0 20C0 8.955 8.955 0 20 0C31.045 0 40 8.955 40 20C40 31.045 31.045 40 20 40C8.955 40 0 31.045 0 20ZM22.75 13.3333H25V8.33333H21.715C18.2183 8.33333 16.6667 9.87167 16.6667 12.82V16.6667H13.3333V20H16.6667V31.6667H21.6667V20H24.6517L25 16.6667H21.6667V14.63C21.6667 13.7017 21.8533 13.3333 22.75 13.3333Z" fill="white"/>
+              </svg></a>
+              
           </div>
-          <div class="twitter_image">
-            <img
-              class="image__icon"
-              src="./img/twitter-4.svg"
-              height="16px"
-              width="16px"
-              alt=""
-            />
+          <div class="twitter_image"><a href="#">
+            <svg width="20" height="20" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" fill-rule="evenodd" clip-rule="evenodd" d="M0 20C0 8.955 8.955 0 20 0C31.045 0 40 8.955 40 20C40 31.045 31.045 40 20 40C8.955 40 0 31.045 0 20ZM16.5033 30.315C25.3933 30.315 30.415 22.8083 30.11 16.075C31.0483 15.4 31.8583 14.5567 32.4983 13.5933C31.6417 13.975 30.7183 14.2317 29.75 14.3483C30.7383 13.755 31.4967 12.8183 31.855 11.7C30.9317 12.2483 29.905 12.6483 28.815 12.8617C27.9417 11.9317 26.6967 11.35 25.3217 11.35C22.23 11.35 19.9583 14.235 20.6567 17.2283C16.6783 17.0283 13.15 15.1233 10.79 12.2267C9.53667 14.3783 10.14 17.1933 12.2717 18.6183C11.4867 18.5933 10.75 18.3783 10.1033 18.02C10.0517 20.2383 11.6417 22.3117 13.9433 22.775C13.2717 22.9583 12.5317 23 11.78 22.8567C12.3917 24.7583 14.16 26.1433 16.2533 26.1817C14.2417 27.7567 11.7067 28.4633 9.16667 28.1633C11.285 29.5217 13.8 30.315 16.5033 30.315Z" fill="white"/>
+              </svg></a>
           </div>
-          <div class="linkedin_image">
-            <img
-              class="image__icon"
-              src="./img/linkedin-4.svg"
-              height="16px"
-              width="16px"
-              alt=""
-            />
+          <div class="linkedin_image"><a href="#">
+            <svg  width="20" height="20" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon" fill-rule="evenodd" clip-rule="evenodd" d="M0 20C0 8.955 8.955 0 20 0C31.045 0 40 8.955 40 20C40 31.045 31.045 40 20 40C8.955 40 0 31.045 0 20ZM16.6667 26.6667V16.6667H13.3333V26.6667H16.6667ZM15 15.1817C13.9883 15.1817 13.1667 14.355 13.1667 13.3333C13.1667 12.3133 13.9867 11.485 15 11.485C16.0133 11.485 16.8333 12.3133 16.8333 13.3333C16.8333 14.355 16.0117 15.1817 15 15.1817ZM25.0033 26.6667H28.3333V21.0683C28.3333 15.595 23.12 15.795 21.6667 18.4883V16.6667H18.3333V26.6667H21.6667V21.8983C21.6667 19.0283 25.0033 18.7633 25.0033 21.8983V26.6667Z" fill="white"/>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="mail">
@@ -80,6 +71,8 @@
         </div>
       </section>
       <section class="slider">
+        <img class="slider__img index" src="./img/doc1.png" alt="">
+        <img class="slider__img" src="./img/doc2.png" alt="">
         <div class="slider__container">
           <div class="slider__subtittle">For Physicians</div>
           <div class="slider__title">Our Promise</div>
@@ -92,13 +85,19 @@
           </div>
         </div>
         <div class="slider__btn__container slider__btn__container-left">
-          <button class="slider__btn-left" type="button">
-            <img src="./img/btn_left.png" alt="" />
+          <button class="slider__btn-left btn-arrow" type="button">
+            <svg width="19" height="35" viewBox="0 0 19 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon__slider" fill-rule="evenodd" clip-rule="evenodd" d="M0 17.5L1.53725 19.32L14.8027 35L19 31.36L7.27168 17.5L19 3.64L14.8027 0L1.53725 15.68L0 17.5Z" fill="black" fill-opacity="0.5"/>
+              </svg>
+              
           </button>
         </div>
         <div class="slider__btn__container slider__btn__container-right">
-          <button class="slider__btn-right" type="button">
-            <img src="./img/btn_right.png" alt="" />
+          <button class="slider__btn-right btn-arrow" type="button" >
+            <svg width="19" height="35" viewBox="0 0 19 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="icon__slider" fill-rule="evenodd" clip-rule="evenodd" d="M19 17.5L17.4628 15.68L4.1973 0L0 3.64L11.7283 17.5L0 31.36L4.1973 35L17.4628 19.32L19 17.5Z" fill="black" fill-opacity="0.5"/>
+              </svg>
+              
           </button>
         </div>
       </section>
@@ -170,8 +169,8 @@
       </div>
       </section>
       <section class="benefits">
-        <div class="benefits__pic">
-          <div class="benefits__card phisicials">
+        <div id="benefits__pic">
+          <div class="benefits__card phisicials active">
             <p class="card">For Physicians and Group Practice:</p>
           </div>
           <div class="benefits__card medical">
@@ -181,9 +180,57 @@
             <p class="card">You Stay in Control:</p>
           </div>
         </div>
-        <div class="benefirs__description">
+        <div class="benefirs__description hidden">
           <div class="benefits__title title">Benefits</div>
           <div class="benefits__name names">For Physicians and Group Practice</div>
+          <div class="benefits__text">
+            <ul class="benefits__list">
+              <li class="benefits__item">
+               90% first pass payment within 30 days, at 3% Billing charges.
+              </li>
+              <li class="benefits__item">
+                Increase of 15-20% in monthly collected revenue.
+              </li>
+              <li class="benefits__item">
+                Expert teams with vast knowledge and experience who will follow up every claim to zero balance.
+              </li>
+              <li class="benefits__item">
+                Services spanning coding review, claims and payment processing, as well as Insurance and patient follow up.
+              </li>
+          </ul>
+          <div class="benefits__btn">
+            <button class="btn benefits__btn-item">READ MORE</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="benefirs__description ">
+          <div class="benefits__title title">Benefits</div>
+          <div class="benefits__name names">For Medical Billing Companies/Hospitals</div>
+          <div class="benefits__text">
+            <ul class="benefits__list">
+              <li class="benefits__item">
+               90% first pass payment within 30 days, at 3% Billing charges.
+              </li>
+              <li class="benefits__item">
+                Increase of 15-20% in monthly collected revenue.
+              </li>
+              <li class="benefits__item">
+                Expert teams with vast knowledge and experience who will follow up every claim to zero balance.
+              </li>
+              <li class="benefits__item">
+                Services spanning coding review, claims and payment processing, as well as Insurance and patient follow up.
+              </li>
+          </ul>
+          <div class="benefits__btn">
+            <button class="btn benefits__btn-item">READ MORE</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="benefirs__description hidden">
+          <div class="benefits__title title">Benefits</div>
+          <div class="benefits__name names">You Stay in Control</div>
           <div class="benefits__text">
             <ul class="benefits__list">
               <li class="benefits__item">
@@ -212,9 +259,9 @@
           <div class="service__name names">Our staff extension services include</div>
           <div class="accordion">
             <div class="accordion__item accordion__item_show">
-              <div class="accordion__header">
+              <div class="accordion__header ">
                 Coding Services
-                <img src="./img/minus.svg" alt="">
+                <img class="accordion_img accordion_img__plus" src="./img/minus.svg" alt="">
               </div>
               <div class="accordion__body">
                 <img class="accordion__body__img" src="./img/coding-services.png" alt="">
@@ -225,30 +272,30 @@
               </div>
             </div>
             <div class="accordion__item">
-              <div class="accordion__header">
+              <div class="accordion__header accordion__header-second">
                 Credentialing
-                <img src="./img/plus.svg" alt="">
+                <img class="accordion_img accordion_img__plus" src="./img/plus.svg" alt="">
               </div>
-              <!-- <div class="accordion__body">
-                <img src="./img/coding-services.png" alt="">
+              <div class="accordion__body">
+                <img class="accordion__body__img" src="./img/coding-services.png" alt="">
                 <div class="accordion__text">
                   <p class="accordion__description">We offer high quality coding and auditing services to hospitals and physicians; services extended for Anesthesia, Radiology, E&M and Surgery coding.</p>
                   <div class="link"><a class="link__item" href="#">READ MORE</a></div>
                 </div>
-              </div> -->
+              </div>
             </div>
             <div class="accordion__item">
               <div class="accordion__header accordion__header-last">
                 HCC Maangement Services
-                <img src="./img/plus.svg" alt="">
+                <img class="accordion_img accordion_img__plus" src="./img/plus.svg" alt="">
               </div>
-              <!-- <div class="accordion__body">
-                <img src="./img/coding-services.png" alt="">
+              <div class="accordion__body">
+                <img class="accordion__body__img" src="./img/coding-services.png" alt="">
                 <div class="accordion__text">
                   <p class="accordion__description">We offer high quality coding and auditing services to hospitals and physicians; services extended for Anesthesia, Radiology, E&M and Surgery coding.</p>
                   <div class="link"><a class="link__item" href="#">READ MORE</a></div>
                 </div>
-              </div> -->
+              </div>
             </div>
 
           </div>
@@ -361,6 +408,7 @@
       </div>
       <div class="copiwrite">
         <p class="contact__text">Medpro © 2019. All Rights Reserved</p>
+        
       </div>
     </footer>
   </body>

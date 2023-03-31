@@ -54,7 +54,6 @@
 .icon-socilal {
   display: flex;
 }
-
 .facebook_image {
   padding-right: 21px;
 }
@@ -62,10 +61,20 @@
 .twitter_image {
   padding-right: 21px;
 }
+/* a svg .icon {
+  fill: rgba(255, 255, 255, 1);
+} */
+a svg:hover .icon {
+  fill: #fba518;
+}
 
 .mail_link {
   color: #fff;
   text-decoration: none;
+}
+.mail_link:hover {
+  color: #fba518;
+  border-bottom: 1px solid #fba518;
 }
 
 /* section menu */
@@ -100,6 +109,10 @@
   text-decoration: none;
   color: black;
 }
+.nav__link:hover {
+  color: #fba518;
+  border-bottom: 1px solid #fba518;
+}
 .phone {
   display: flex;
 }
@@ -120,8 +133,19 @@
   width: 1665px;
   height: 647px;
   position: relative;
-  background: url(../img/doc2.png);
+  /* background: url(../img/doc2.png); */
   left: 125px;
+}
+
+.slider__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+.index {
+  z-index: -10;
 }
 .slider__container {
   position: absolute;
@@ -192,8 +216,13 @@
 }
 
 .slider__btn-left {
+  /* border: none; */
 }
 .slider__btn-right {
+  /* border: none; */
+}
+
+.icon__slider {
 }
 
 /* section Us */
@@ -293,7 +322,7 @@
   display: flex;
   padding-bottom: 130px;
 }
-.benefits__pic {
+#benefits__pic {
   background: url(../img/benefits.png);
   position: relative;
   width: 877px;
@@ -305,10 +334,15 @@
   right: 0;
   width: 474px;
   height: 86px;
+  color: #fff;
 }
+
 .phisicials {
   top: 87px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #0e77af;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  /* background: rgba(255, 255, 255, 0.9); */
 }
 
 .medical {
@@ -331,7 +365,6 @@
   font-size: 22px;
   line-height: 25px;
 
-  color: #000000;
   padding-left: 34px;
   padding-top: 32px;
   padding-bottom: 36px;
@@ -342,6 +375,20 @@
   background: linear-gradient(180deg, #fcfcfc 0%, #f8f8f8 100%);
   width: 787px;
 }
+.benefits__card:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
 .benefits__title {
   padding-bottom: 10px;
 }
@@ -395,6 +442,10 @@
 }
 .accordion__item {
 }
+.accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
 .accordion__item_show {
 }
 .accordion__header {
@@ -433,6 +484,10 @@
 
   color: #000000;
   padding-bottom: 7px;
+}
+
+.accordion__header-second {
+  padding-top: 31px;
 }
 .accordion__header-last {
   padding-top: 31px;
